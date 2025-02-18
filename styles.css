@@ -92,7 +92,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('');
+    background-image: url('https://img.freepik.com/free-vector/gradient-numerology-background_23-2150066810.jpg');
     background-size: cover;
     margin: 0;
 }
@@ -103,7 +103,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('C:\Users\jihir\Downloads\pic1.jpg');
+    background-image: url('https://img.freepik.com/free-vector/gradient-numerology-background_23-2150066810.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
