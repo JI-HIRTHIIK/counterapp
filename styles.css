@@ -1,0 +1,113 @@
+/* General Styles */
+
+
+/* Container Styles */
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Counter Display Styles */
+.counter {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Button Styles */
+.buttons button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#increment {
+    background-color: #28a745;
+    color: white;
+}
+
+#decrement {
+    background-color: #dc3545;
+    color: white;
+}
+
+#reset {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hover Effects */
+#increment:hover {
+    background-color: #218838;
+}
+
+#decrement:hover {
+    background-color: #c82333;
+}
+
+#reset:hover {
+    background-color: #0056b3;
+}
+
+/* Custom Value Section */
+.custom-value {
+    margin-top: 20px;
+}
+
+.custom-value input {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.custom-value button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc107;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-value button:hover {
+    background-color: #e0a800;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('C:\Users\jihir\Downloads\pic1.jpg');
+    background-size: cover;
+    margin: 0;
+}
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('C:\Users\jihir\Downloads\pic1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.4;
+    z-index: -1;
+    animation: zoomGlowEffect 0.8sease-in-out infinite;
+}
